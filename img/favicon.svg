@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <!-- Degradado de la marca (Cian -> Púrpura -> Magenta) -->
+    <linearGradient id="brandGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#00f0ff" />
+      <stop offset="50%" stop-color="#8b00ff" />
+      <stop offset="100%" stop-color="#ff007f" />
+    </linearGradient>
+
+    <!-- Degradado Verde para el círculo central -->
+    <linearGradient id="greenGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#10b981" />
+      <stop offset="100%" stop-color="#059669" />
+    </linearGradient>
+  </defs>
+
+  <!-- MARCO EXTERIOR (Escudo con degradado web) -->
+  <path d="M 256 12 
+           C 380 65, 470 85, 490 115 
+           C 490 340, 390 450, 256 500 
+           C 122 450, 22 340, 22 115 
+           C 42 85, 132 65, 256 12 Z" 
+        fill="url(#brandGrad)" />
+
+  <!-- INTERIOR IZQUIERDO (Blanco) -->
+  <path d="M 256 58 
+           C 160 100, 88 118, 70 142 
+           C 70 320, 155 410, 256 450 Z" 
+        fill="#ffffff" />
+
+  <!-- INTERIOR DERECHO (Azul suave) -->
+  <path d="M 256 58 
+           C 352 100, 424 118, 442 142 
+           C 442 320, 357 410, 256 450 Z" 
+        fill="#82c8f6" />
+
+  <!-- CÍRCULO VERDE CENTRAL -->
+  <circle cx="256" cy="254" r="115" fill="url(#greenGrad)" />
+
+  <!-- CHULITO / CHECKMARK BLANCO -->
+  <path d="M 195 250 
+           L 238 293 
+           L 318 210" 
+        fill="none" 
+        stroke="#ffffff" 
+        stroke-width="26" 
+        stroke-linecap="round" 
+        stroke-linejoin="round" />
+</svg>
