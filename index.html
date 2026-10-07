@@ -574,6 +574,27 @@
         padding: 2rem 1rem;
       }
     }
+
+/* Contenedor principal para alinear todo al centro */
+.project-container {
+  text-align: center;
+  padding: 10px;
+}
+
+/* Texto principal más pequeño y centrado */
+.project-text {
+  font-size: 0.85rem; /* Reduce el tamaño (ajusta a 12px o 13px si prefieres) */
+  line-height: 1.5;
+  margin-bottom: 8px; /* Espacio antes de los derechos reservados */
+}
+
+/* Estilo para la línea del copyright */
+.project-copyright {
+  display: block;
+  font-size: 0.75rem; /* Más pequeño que el texto de arriba */
+  opacity: 0.7; /* Lo hace sutilmente más tenue para dar jerarquía */
+}
+
   </style>
 </head>
 <body>
@@ -804,5 +825,13 @@
       if (e.target.id === 'infoModal') closeModal();
     });
   </script>
+          <div class="project-container">
+  <p class="project-text">
+    Manuel Emiliani Vi, descendiente de Rávena, Italia. Impulsando la innovación tecnológica, el rescate histórico y la transformación social en la región.
+  </p>
+  <small class="project-copyright">
+    © 2026 Todos los derechos reservados.
+  </small>
+</div>
 </body>
 </html>
