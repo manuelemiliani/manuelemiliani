@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome to My World | Manuel Emiliani</title>
+    <style>
+        body { font-family: Arial, sans-serif; background-color: #f4f6f9; color: #0b1b2b; margin: 0; padding: 20px; }
+        header { text-align: center; padding: 20px 0; }
+        h1 { color: #0b1b2b; margin-bottom: 5px; }
+        .container { max-width: 800px; margin: auto; }
+        .card { 
+            background: white; 
+            border-radius: 8px; 
+            padding: 20px; 
+            margin-bottom: 20px; 
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+            display: flex;
+            align-items: center;
+            gap: 20px;
+        }
+        .card img {
+            width: 140px;
+            height: 100px;
+            object-fit: cover;
+            border-radius: 6px;
+        }
+        .card-content {
+            flex: 1;
+        }
+        .card h2 { margin-top: 0; color: #1e3a8a; font-size: 1.2rem; }
+        .card p { margin: 5px 0 10px 0; font-size: 0.95rem; line-height: 1.4; }
+        .card a { display: inline-block; color: #388e3c; text-decoration: none; font-weight: bold; }
+        .card a:hover { text-decoration: underline; }
+
+        /* Responsivo para celulares */
+        @media (max-width: 600px) {
+            .card { flex-direction: column; text-align: center; }
+            .card img { width: 100%; height: 160px; }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>WELCOME TO MY WORLD!</h1>
+            <p><strong>MY PERSONAL BLOG | MANUEL EMILIANI</strong></p>
+        </header>
+
+        <div class="card">
+            <img src="https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=400&q=80" alt="About Me & Work">
+            <div class="card-content">
+                <h2>Entry 1: About Me & Work</h2>
+                <p>Learn more about my background as an ADSO student at SENA and my job in remote IT support.</p>
+                <a href="entry1.html">Read Entry &rarr;</a>
+            </div>
+        </div>
+
+        <div class="card">
+            <img src="https://images.unsplash.com/photo-1552832230-c0197dd311b5?w=400&q=80" alt="Trip to Rome">
+            <div class="card-content">
+                <h2>Entry 2: Italian Heritage & Dream Trip to Rome</h2>
+                <p>Discover my family roots and my personal goal of visiting the Eternal City.</p>
+                <a href="entry2.html">Read Entry &rarr;</a>
+            </div>
+        </div>
+
+        <div class="card">
+            <img src="https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?w=400&q=80" alt="Future Goals">
+            <div class="card-content">
+                <h2>Entry 3: Future Goals</h2>
+                <p>My professional targets as a software developer and continuous learning in tech.</p>
+                <a href="entry3.html">Read Entry &rarr;</a>
+            </div>
+        </div>
+
+        <div class="card">
+            <img src="https://images.unsplash.com/photo-1504711434969-e33886168f5c?w=400&q=80" alt="Media Literacy">
+            <div class="card-content">
+                <h2>Entry 4: Critical Thinking and Media Literacy</h2>
+                <p>Why evaluating digital information and avoiding fake news is essential for IT professionals.</p>
+                <a href="entry4.html">Read Entry &rarr;</a>
+            </div>
+        </div>
+
+        <div class="card">
+            <img src="https://images.unsplash.com/photo-1563986768609-322da13575f3?w=400&q=80" alt="Cybersecurity">
+            <div class="card-content">
+                <h2>Entry 5: Crime and Punishment</h2>
+                <p>Reflections on cybersecurity breaches, digital ethics, and system protection.</p>
+                <a href="entry5.html">Read Entry &rarr;</a>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
